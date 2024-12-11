@@ -4,21 +4,13 @@ const reverseString = function (string) {
   const revString = revChars.join("");
 
   return revString;
-
-  /*
-chop string
-    length 
-
-    split()     !
-    substring() !!
-
-    .slice()
-reverse the order
-concatenate 
-    String() 
-
-*/
 };
 reverseString("123 456");
+
+const reverseString2 = function (string) {
+  return string.split("").reverse().join("");
+};
+reverseString2("cookin");
+
 // Do not edit below this line
 module.exports = reverseString;
