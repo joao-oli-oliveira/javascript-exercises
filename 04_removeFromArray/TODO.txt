@@ -1,0 +1,17 @@
+1) loop through your array 
+2) for each element of that array find the position of your target element to remove (if it exists) 
+3) with the help of the position remove the said element 
+4) return the final array
+
+return early 
+    Ignoring no present values
+    Ignoring if same type is not in array
+
+search -> provide the index position
+    toLower
+    trim
+    types
+
+remove <- based on search index position
+
+how to deal with multiple optional arguments.
